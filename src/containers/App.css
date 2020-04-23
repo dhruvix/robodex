@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css?family=Bungee+Shade|Roboto&display=swap');
+
+html{
+    scroll-behavior: smooth;
+}
+
+h1{
+    text-align: center;
+    font-family: 'Bungee Shade', cursive;
+    color: gold;
+}
+
+h3{
+    text-align: center;
+    font-family: 'Roboto';
+    font-style: italic;
+    color: gold;
+}
+
+h2 ,h4{
+    font-family: 'Roboto';
+}
+
+a{
+    text-decoration: none;
+    text-align: center;
+    color: gold;
+}
+
+a:hover {
+    color: yellow;
+}
+
+.choices {
+    display: flex;
+    border: 1px solid gold;
+    border-radius:10px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    margin-left: 10vw;
+    margin-right: 10vw;
+}
+
+@media only screen and (max-width: 600px) {
+    .choices {
+        margin-top: 10px;
+        margin-left: 10px;
+        margin-right: 10px;
+        display: flex;
+        flex-direction: column;
+    }
+  }
